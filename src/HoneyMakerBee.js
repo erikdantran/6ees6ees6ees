@@ -6,11 +6,11 @@ class HoneyMakerBee extends Bee {
     this.honeyPot = 0;
   }
 
-  makeHoney() {
+  makeHoney = () => {
     this.honeyPot++;
   }
 
-  giveHoney() {
+  giveHoney = () => {
     this.honeyPot--;
   }
 
